@@ -1,0 +1,15 @@
+CREATE TABLE `salesDataSetup`.`dms_lead_stage_ref` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `lead_id` INT NOT NULL,
+  `stage_name` VARCHAR(45) NULL,
+  `start_date` DATETIME NULL,
+  `end_date` DATETIME NULL,
+  `ref_no` VARCHAR(100) NULL,
+  `lead_status` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+ALTER TABLE `salesDataSetup`.`dms_lead_stage_ref` 
+ADD COLUMN `org_id` INT NULL AFTER `id`,
+ADD COLUMN `branch_id` INT NULL AFTER `org_id`;
+  ALTER TABLE `salesDataSetup`.`dms_lead_stage_ref` 
+ADD COLUMN `universal_id` VARCHAR(100) NULL AFTER `lead_status`;
+  

@@ -1,0 +1,16 @@
+package com.automate.df.model;
+
+import java.util.List;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class DFGenericInput {
+	
+	//private String formName;
+	private String formType;
+	private List<FormData> formData;
+
+}

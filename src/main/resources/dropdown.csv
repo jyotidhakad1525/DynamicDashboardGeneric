@@ -1,0 +1,8 @@
+"id";"business_unit";"key";"value";"dropdown_type";"parent"
+1;"1";"ap";"Andhra Pradesh";"STATE";4
+2;"1";"ts";"TELANGANA";"STATE";4
+3;"1";"tn";"TAMILNADDU";"STATE";4
+4;"1";"IND";"INDIA";"COUNTRY";0
+5;"1";"HYD";"HYDERABAD";"CITY";2
+6;"1";"ONG";"ONGOLE";"CITY";1
+7;"1";"NLR";"NEELORE";"CITY";1
